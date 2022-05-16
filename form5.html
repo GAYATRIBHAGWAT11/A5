@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signup</title>
+</head>
+<body>
+  <form>
+<fieldset>     
+    <legend>Personalia:</legend>
+
+    <label for="fname">First name*:</label><br>
+    <input type="text" id="fname" name="fname" ><br>
+    <label for="lname">Last name*:</label><br>
+    <input type="text" id="lname" name="lname" ><br>
+
+    <label for="emailid">email id*:</label><br>
+    <input type="email" id="id" name="emailid"><br><br>
+
+    
+    <label for="pwd">Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="8"><br>
+
+    <label for="pwd">confirm Password:</label>
+    <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
+
+    <label for="birthday">Birthday*:</label>
+    <input type="date" id="birthday" name="birthday">
+    
+
+    <p>Please select your gender:</p>
+  
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="gender">female</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="gender">other</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="gender">other</label><br>
+
+
+<P>language known</P>
+
+
+  <input type="checkbox" id="language1" name="language1" value="react">
+  <label for="language1">REACT</label><br>
+  <input type="checkbox" id="language2" name="language2" value="angular">
+  <label for="language2"> ANGULAR</label><br>
+  <input type="checkbox" id="language3" name="language3" value="vue">
+  <label for="language3"> VUE</label><br><br>
+
+
+  <label for="experience">experience level:</label>
+  <input list="experiences" name="experience" id="experience">
+  <datalist id="experiences">
+    <option value="beginner">
+    <option value="0-1 year">
+    <option value="more than 5 year">
+    
+  </datalist><br><br>
+
+  <label for="subject">tell us something about you*</label><br>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br>
+
+  
+
+  <input type="checkbox" id="t&c" name="t&c" value="t&c">
+  <label for="lt&c">I accept the t&c</label><br>
+
+  <input type="register" value="register">
+
+</fieldset>
+  </form>
+
+</body>
+</html>
+
+
